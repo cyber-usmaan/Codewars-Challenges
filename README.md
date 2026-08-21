@@ -1,2 +1,2 @@
-# Codewars-Challenges
-Solving Code Wars Challanges in Python
+# Codewars Challenges in Python
+Solving Code Wars Problem Challenges in Python. Documenting Solution for leaning and reviews.
