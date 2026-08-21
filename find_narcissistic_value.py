@@ -17,20 +17,18 @@ Error checking for text strings or other invalid inputs is not required, only va
 
 '''
 
-
+#my solution
 def narcissistic(value):
     
-    l = len(str(value))
+    l = len(str(value)) # 1. Storing length of number
     n = value
     sum=0
     m = 0
     
-    while n > 0:
-        m = n % 10
+    while n > 0:  # 2. Looping for each value to be seperated by mod and raised to the power of lenght of the num
+        m = n % 10 
         sum = sum + (m ** l)
         n = n//10
     
-    if sum == value:
-        return True
-    else:
-        return False
+    return sum == value: # 3. Comparing the sum of each digit raised to the power of that number to with sum
+    # True for Narcissistic Number and False for Non-narcissistic Number
