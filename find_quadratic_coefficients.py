@@ -20,3 +20,9 @@ def quadratic(x1, x2): #given fuction
     b = -(x1 + x2)
     c = x1 * x2
     return (a, b, c)
+
+'''
+clever ans:
+def quadratic(x1, x2):
+    return (1,-x1-x2,x1*x2)
+'''
